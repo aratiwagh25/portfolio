@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92171e128c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+
+
+
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/banner2.jpeg" type="image/x-icon">
+    <title>SKY.GIT</title>
+</head>
+
+<body>
+    <!--=============== NAV ===============-->
+    <nav class="nav" id="nav">
+        <div class="nav__menu pl-5" id="nav-menu">
+            <div class="nav__shape"></div>
+
+            <div class="nav__close" id="nav-close">
+                <i class='bx bx-x'></i>
+            </div>
+
+            <div class="nav__data">
+                <div class="nav__mask">
+                    <!-- Change your profile picture -->
+                    <img src="image/banner2.jpeg" alt="" class="nav__img">
+                </div>
+
+                <span class="nav__greeting">Hi, I'm</span>
+                <h2 class="nav__name">Arati Wagh</h2>
+            </div>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                        <i class='bx bx-home'></i> Home
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">
+                        <i class='bx bx-user'></i> About
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class='bx bx-briefcase-alt-2'></i> SKILLS
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#projects" class="nav__link">
+                        <i class='bx bx-bookmark'></i> Projects
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                        <i class='bx bx-message-square-detail'></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--=============== MAIN ===============-->
+    <main class="main" id="main">
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="header__nav container">
+                <a href="#" class="header__logo">
+                    <div class="waviy">
+                        <span style="--i:1">R</span>
+                        <span style="--i:2">T</span>
+                        <span style="--i:3">I</span>
+                        <span style="--i:4">.</span>
+                        <span style="--i:5">F</span>
+                        <span style="--i:6">R</span>
+                        <span style="--i:7">O</span>
+                        <span style="--i:8">N</span>
+                        <span style="--i:9">T</span>
+                        <span style="--i:10">E</span>
+                        <span style="--i:11">N</span>
+                        <span style="--i:12">D</span>
+
+
+
+                    </div>
+                </a>
+
+                <!-- Toggle button -->
+                <div class="header__toggle" id="header-toggle">
+                    <i class='bx bx-menu-alt-right'></i>
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- When inserting your content into sections, remove the section__height class -->
+
+        <!--=============== ABOUT ===============-->
+        <section class="section section__heigh container" id="home">
+
+            <div class="about-info">
+                <div class="about-info-detail">
+                    <h4>Web FrontEnd Developer</h4>
+                    <h5 class="gitt">Welcome to </h5><span> <a href="#" class="git">RTI FRONTEND</span></a>
+                    
+
+                </div>
+                <div class="about-info-img">
+                    <img src="image/banner2.jpeg" alt="">
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="section container " id="about">
+            <h2>ABOUT</h2>
+
+            <div class="about2-info">
+                <div class="about2-info-img">
+                    <img src="image/about4.jpg" alt="">
+                </div>
+                <div class="about2-info-details">
+                    <div class="about2-info-details-1">
+                        <p>I have been working as a front-end developer since 2021. I've always
+                            been
+                            someone who has both a creative and a logical side. When I discovered web design, I realized
+                            it
+                            would be the perfect fit. I could use my creative side to design and my logical side to
+                            code.
+
+                        </p>
+                    </div>
+                    <div class="about-info-details-2">
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Creating Responsive Websites</li>
+                                <li><span>Seo Optimzation</span><br>Designing Seo interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2020-2023</span><br>Web Developer at Neosoft Technologies.</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="section section__height container" id="skills">
+            <h2>SKILLS</h2>
+
+            <div id="services">
+                <div class="container">
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Web Frontend Development</h3>
+                            <p>Web development fundamentals, including HTML, CSS,SCSS,TalwindCSS,jquery and JavaScript.
+                                <p>Framemworks Bootstarp, Drupal,Wordpress</p>
+                            </p>
+                      </div>
+                        <div>
+                            <i class="fa-sharp fa-solid fa-crop"></i>
+                            <h3>Web Backend Development</h3>
+                            <p>Maintaining the appearance of websites by enforcing content standards.</p>                       
+                         </div>
+                         <div>
+                            <i class="fa-sharp fa-solid  fa-plus-circle
+                            "></i>
+                            <h3>SEO Friendly Website</h3>
+                            <p>potential to make your website a more valuable asset. For this reason, we recommend prioritizing search engine optimization for your online marketing strategy.</p>                       
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--=============== PROJECTS ===============-->
+        <section class="section section__height container" id="projects">
+            <h2>PROJECTS</h2>
+
+            <div id="portfolio">
+                <div class="container">
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="image/port1.PNG" alt="Project-1">
+                            <div class="layer">
+                                <h4>webwerks</h4>
+                                <p>maintain and keep raising these standards with new Data Centers across India. all concerns regarding their Data Center needs with unprecedented ease.</p>
+                                <a href="https://www.webwerks.in/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="work">
+                            <img src="image/port2.PNG" alt="Project-1">
+                            <div class="layer">
+                                <p>An Online Marketing Agency With Team Of Young Marketers To Handle Your Online Presence
+                                </p>
+                                <a href="https://www.valuehits.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/port3.PNG" alt="Project-1">
+                            <div class="layer">
+                                <p>NUTANIX COMPLIED CLOUD SERVICE PROVIDER
+                                </p>
+                                <a href="https://webwerksvmx.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/port4.PNG" alt="Project-1">
+                            <div class="layer">
+                                <p>Providing a Full Suite of Financial Services.These include home loans, gold loans, business loans including loans against property
+                                </p>
+                                <a href="https://www.iifl.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/port5.PNG" alt="Project-1">
+                            <div class="layer">
+                                <p>Provding grooming category appliance to carry forward the tradition of innovation and superior customer service. </p>
+                                <a href="https://eu.wahl.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/port6.PNG" alt="Project-1">
+                            <div class="layer">
+                                <p> CMMi Level 5 certified global IT consulting & software solutions provider with 4000+ software consultants working full time across 7 Delivery Centers.</p>
+                                <a href="https://www.s4support.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--=============== CONTACT ===============-->
+        <section class="section section__height container" id="contact">
+            <h2>CONTACT ME</h2>
+            <!---------------Contect------------>
+
+            <div class="contact" id="contacts">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <p><a href="mailto:someone@example.com"><i class="fa-solid fa-envelope"></i> aratiwagh2210@gmail.com</a></p>
+                            <p><a href="tel:+91 8668991460"><i class="fa-solid fa-phone"></i> +91 8668991460</a></p>
+                            <p><a href="https://api.whatsapp.com/send?phone=7768974042"><i class="fa fa-whatsapp"></i> +91 7768974042</a></p>
+
+                            <div class="social-icons">
+                                <a href="https://github.com/aratiwagh25/"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/arati-wagh-9057b3188/"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                            <a href="#" class="btn btn2">Download CV</a>
+                       
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--=============== CONTACT ===============-->
+
+       
+    </main>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="slick.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
